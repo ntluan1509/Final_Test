@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ThanhLuan_FinalTest </title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="game-display">    
+            <div><img src="image/bau.png"></div>
+            <div><img src="image/bau.png"></div>
+            <div><img src="image/bau.png"></div>
+    </div>
+    <div class="button-container">
+        <button id="start-button" class="rotate-button" onclick="startShuffle()">Quay</button>
+    </div>
+    <div class="choose-image-items">
+        <div class = "image-items-container" onclick="placeBet(this)">
+            <img src="image/bau.png">
+            <p>0</p>
+        </div>
+        <div class = "image-items-container" onclick="placeBet(this)">
+            <img src="image/cua.png">
+            <p>0</p>
+        </div>
+        <div class = "image-items-container" onclick="placeBet(this)">
+            <img src="image/tom.png">
+            <p>0</p>
+        </div>
+        <div class = "image-items-container" onclick="placeBet(this)">
+            <img src="image//ca.png">
+            <p>0</p>
+        </div>
+        <div class = "image-items-container" onclick="placeBet(this)">
+            <img src="image/nai.png">
+            <p>0</p>
+        </div>
+        <div class = "image-items-container"  onclick="placeBet(this)">
+            <img src="image/ga.png">
+            <p>0</p>
+        </div>        
+    </div>
+    <div class="button-container">
+        <button id="reset-button" class="rotate-button" onclick="resetBets()"> Đặt lại </button>
+    </div>
+</body>
+</html>
